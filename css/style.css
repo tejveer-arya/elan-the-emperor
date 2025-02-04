@@ -4466,6 +4466,7 @@ img {
   font-size: 15px;
   overflow: hidden;
   z-index: 1;
+  margin-bottom: 66px;
   /*** newsletter-widget ***/
 }
 
@@ -4518,6 +4519,13 @@ img {
   .wpo-site-footer-s2 .wpo-upper-footer {
     padding: 50px 0 0;
   }
+}
+@media (max-width: 991.98px) {
+.wpo-site-footer,
+.wpo-site-footer-s2 {
+  margin-bottom: 185px;
+  /*** newsletter-widget ***/
+}
 }
 
 .wpo-site-footer .wpo-upper-footer .col:nth-child(2) .widget,
